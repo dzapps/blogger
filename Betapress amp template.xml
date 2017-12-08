@@ -69,7 +69,7 @@
 Platform: Blogger
 Name:     Betapress AMP Blogger Template
 Designer: Bloggertheme9
-URL:      http://www.bloggertheme9.com
+URL:      https://www.bloggertheme9.com
 License: Free Version 
 
 ----------------------------------------------- */
@@ -360,7 +360,7 @@ a.blog-pager-older-link,a.blog-pager-newer-link,a.home-link{display:block;paddin
 
   </head>
 
-  <body expr:class='&quot;loading&quot; + data:blog.mobileClass' itemscope='itemscope' itemtype='http://schema.org/WebPage'>
+  <body expr:class='&quot;loading&quot; + data:blog.mobileClass' itemscope='itemscope' itemtype='https://schema.org/WebPage'>
 
  <amp-analytics id='analytics1' type='googleanalytics'>
 <script type='application/json'>
@@ -378,8 +378,19 @@ a.blog-pager-older-link,a.blog-pager-newer-link,a.home-link{display:block;paddin
 </script>
 </amp-analytics> 
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9344391-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-9344391-1');
+</script>
+
+
   <b:if cond='data:blog.pageType == &quot;index&quot;'>
-    <div class='none' itemscope='itemscope' itemtype='http://schema.org/Blog'>
+    <div class='none' itemscope='itemscope' itemtype='https://schema.org/Blog'>
       <meta expr:content='data:blog.title' itemprop='name'/>
       <b:if cond='data:blog.metaDescription'>
         <meta expr:content='data:blog.metaDescription' itemprop='description'/>
@@ -478,7 +489,7 @@ a.blog-pager-older-link,a.blog-pager-newer-link,a.home-link{display:block;paddin
 
 <!-- Social Profile Icons -->
 
-<a class='tt1' href='YOUR-FACEBOOK-URL' target='_blank' title='Like us'>
+<a class='tt1' href='https://www.facebook.com/ducala.me/' target='_blank' title='Like us'>
 <svg viewBox='0 0 512 512'><path d='M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 1'/></svg>
 </a>
 
@@ -497,7 +508,7 @@ a.blog-pager-older-link,a.blog-pager-newer-link,a.home-link{display:block;paddin
 </div>
 
 
-<nav class='main-nav' itemscope='itemscope' itemtype='http://schema.org/SiteNavigationElement' role='navigation'>
+<nav class='main-nav' itemscope='itemscope' itemtype='https://schema.org/SiteNavigationElement' role='navigation'>
    
 <ul class='menu'>
 
@@ -505,15 +516,13 @@ a.blog-pager-older-link,a.blog-pager-newer-link,a.home-link{display:block;paddin
 
 <li class='home'><a expr:href='data:blog.homepageUrl'>Home</a></li>
 
-<li><a href='#' itemprop='url'><span itemprop='name'>Gadgets</span></a></li>
+<li><a href='https://reiserlonelyplanet.blogspot.tw/search/label/%E6%97%A5%E6%9C%AC' itemprop='url'><span itemprop='name'>日本</span></a></li>
 
-<li><a href='#' itemprop='url'><span itemprop='name'>Humor</span></a></li>
+<li><a href='https://reiserlonelyplanet.blogspot.tw/search/label/%E6%BA%AB%E6%B3%89' itemprop='url'><span itemprop='name'>溫泉</span></a></li>
 
-<li><a href='#' itemprop='url'><span itemprop='name'>Internet</span></a></li>
+<li><a href='https://reiserlonelyplanet.blogspot.tw/search/label/%E7%B6%B2%E8%B7%AF%E6%8A%80%E8%A1%93' itemprop='url'><span itemprop='name'>Technology</span></a></li>
 
-<li><a href='#' itemprop='url'><span itemprop='name'>Social</span></a></li>
 
-<li><a href='#' itemprop='url'><span itemprop='name'>Venture</span></a></li>
 
 </ul>
 
@@ -1006,7 +1015,7 @@ a.blog-pager-older-link,a.blog-pager-newer-link,a.home-link{display:block;paddin
   <div class='clear'/>
 </b:includable>
               <b:includable id='post' var='post'>
-  <article class='post hentry' itemscope='itemscope' itemtype='http://schema.org/Blog'>
+  <article class='post hentry' itemscope='itemscope' itemtype='https://schema.org/Blog'>
 
     <b:if cond='data:post.firstImageUrl'>
       <meta expr:content='data:post.firstImageUrl' itemprop='image'/>
@@ -1083,14 +1092,14 @@ a.blog-pager-older-link,a.blog-pager-newer-link,a.home-link{display:block;paddin
         <b:if cond='data:top.showAuthor'>
           <data:top.authorLabel/>
             <b:if cond='data:post.authorProfileUrl'>
-              <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+              <span class='fn' itemprop='author' itemscope='itemscope' itemtype='https://schema.org/Person'>
                 <meta expr:content='data:post.authorProfileUrl' itemprop='url'/>
                 <a class='g-profile' expr:href='data:post.authorProfileUrl' rel='author' title='author profile'>
                   <span itemprop='name'><data:post.author/></span>
                 </a>
               </span>
             <b:else/>
-              <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+              <span class='fn' itemprop='author' itemscope='itemscope' itemtype='https://schema.org/Person'>
                 <span itemprop='name'><data:post.author/></span>
               </span>
             </b:if>
@@ -1507,8 +1516,8 @@ a.blog-pager-older-link,a.blog-pager-newer-link,a.home-link{display:block;paddin
 
   <div class='footer'>
 
-<h3> About us </h3>
-<p>Short description of you blog can be added here. Mashable rassure vous nous les avons regroup en un autre buffet ressource pratique bien approvisione pour certains peut lire la jouis week.</p>
+<h3> About Me </h3>
+<p>Ducala - a infotech worker, traveller, and writter based in Taiwan.</p>
 
   </div>
 
@@ -1520,11 +1529,9 @@ a.blog-pager-older-link,a.blog-pager-newer-link,a.home-link{display:block;paddin
 
 <!-- Our Categories -->
 
-<li><a href='http://betapress-bt9.blogspot.com/search/label/featured'>Featured</a></li>
-<li><a href='http://betapress-bt9.blogspot.com/search/label/Inspiration'>Inspiration</a></li>
-<li><a href='http://betapress-bt9.blogspot.com/search/label/Social'>Social</a></li>
-<li><a href='http://betapress-bt9.blogspot.com/search/label/Sony'>Sony</a></li>
-<li><a href='http://betapress-bt9.blogspot.com/search/label/Technology'>Technology</a></li>
+<li><a href='https://reiserlonelyplanet.blogspot.tw/search/label/%E6%97%A5%E6%9C%AC'>日本</a></li>
+<li><a href='https://reiserlonelyplanet.blogspot.tw/search/label/%E6%BA%AB%E6%B3%89'>溫泉</a></li>
+<li><a href='https://reiserlonelyplanet.blogspot.tw/search/label/%E7%B6%B2%E8%B7%AF%E6%8A%80%E8%A1%93'>Technology</a></li>
 </ul>
 
   </div>
@@ -1546,7 +1553,7 @@ a.blog-pager-older-link,a.blog-pager-newer-link,a.home-link{display:block;paddin
 
 <div class='clear'/>
 
-<div class='attribution'>&#169; Copyright 2015 <a expr:href='data:blog.homepageUrl'><data:blog.title/></a>. <a href='https://bloggertemplates4u.com/' rel='dofollow' target='_blank' title='Blogger Templates'>Blogger Templates</a> Designed by <a href='http://www.bloggertheme9.com/'>Bloggertheme9</a>. </div>
+<div class='attribution'>&#169; Copyright 2018 <a expr:href='data:blog.homepageUrl'><data:blog.title/></a>. <a href='https://bloggertemplates4u.com/' rel='dofollow' target='_blank' title='Blogger Templates'>Blogger Templates</a>  Design origniated from <a href='https://www.bloggertheme9.com/'>Bloggertheme9</a>. </div>
 
 
 </div><!--Div Container-->
