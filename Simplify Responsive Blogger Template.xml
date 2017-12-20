@@ -155,12 +155,12 @@
                 #layout #footer-wrapper #column1,#layout #footer-wrapper #column2{margin:0}
                 /* Layout */
                 body {background:#fff;font-family:'Roboto',sans-serif;font-size:14px;font-weight:400;text-align:left;color:#000;margin:0;padding:0;}
-                .navbar,.post-feeds,.feed-links{display:none;}.section,.widget{margin:0;padding:0;}strong,b{font-weight:bold;padding:0;}cite,em,i{font-style:italic;}a:link,a:visited {color:#138be6;text-decoration:none;transition:all .3s}a:hover,a:hover:visited {color:#000}a img{border:none;border-width:0;outline:none;}img{max-width:100%;vertical-align:middle;border:0;}abbr,acronym{border-bottom:1px dotted;cursor:help;}sup,sub{vertical-align:baseline;position:relative;top:-.4em;font-size:86%;}sub{top:.4em;}small{font-size:86%;}kbd{display:inline-block;font-size:90%;color:#138be6;}mark{background-color:#ffce00;color:#182025;}p,blockquote,pre,table,figure,hr,form,ol,ul,dl{margin:1.5em 0;}hr{height:1px;border:none;background-color:#999;}code,kbd,pre,samp{font-family:monospace,monospace;}
+                .navbar,.post-feeds,.feed-links{display:none;}.section,.widget{margin:0;padding:0;}strong,b{font-weight:bold;padding:0;}cite,em,i{font-style:italic;}a:link,a:visited {color:#4D5139;text-decoration:none;transition:all .3s}a:hover,a:hover:visited {color:#000}a img{border:none;border-width:0;outline:none;}img{max-width:100%;vertical-align:middle;border:0;}abbr,acronym{border-bottom:1px dotted;cursor:help;}sup,sub{vertical-align:baseline;position:relative;top:-.4em;font-size:86%;}sub{top:.4em;}small{font-size:86%;}kbd{display:inline-block;font-size:90%;color:#4D5139;}mark{background-color:#ffce00;color:#182025;}p,blockquote,pre,table,figure,hr,form,ol,ul,dl{margin:1.5em 0;}hr{height:1px;border:none;background-color:#999;}code,kbd,pre,samp{font-family:monospace,monospace;}
                 pre{white-space:pre;word-wrap:normal;overflow:auto;font-size:13px;margin:0;}*:focus {outline:0!important;}h1,h2,h3,h4,h5,h6{font-weight:700;line-height:normal;}h1{font-size:200%}h2{font-size:180%}h3{font-size:160%}h4{font-size:140%}h5{font-size:120%}h6{font-size:100%}
                 .post-body blockquote{position:relative;margin:0 auto;padding:24px 20px 24px 45px;line-height:24px;text-shadow:0 1px 1px white;background-color:#f2f6c1;background-image:-webkit-radial-gradient(center,cover,rgba(255,255,255,0) 0%,rgba(255,255,255,0.1) 90%),-webkit-repeating-linear-gradient(top,transparent 0%,transparent 24px,rgba(239,207,173,0.7) 24px,rgba(239,207,173,0.7) 25px);border:1px solid rgba(0,0,0,0.1);font-family:cursive}
                 .post-body blockquote:before,.post-body blockquote:after{content:'';position:absolute;top:0;bottom:0}
                 .post-body blockquote:before{left:20px;border:4px solid rgba(239,207,173,0.7)}
-                .post-body blockquote:after{z-index:-1;left:0;right:0;background:rgba(242,246,193,0.9);border:1px solid rgba(170,157,134,0.7);transform:rotate(2deg)}
+                .post-body blockquote:after{z-index:-1;left:0;right:0;background:rgba(137,125,85,0.9);border:1px solid rgba(170,157,134,0.7);transform:rotate(2deg)}
                 .post-body h1{font-size:200%}.post-body h2{font-size:180%}.post-body h3{font-size:160%}.post-body h4{font-size:140%}.post-body h5{font-size:120%}.post-body h6{font-size:100%}
                 .post-body h1 b,.post-body h2 b,.post-body h3 b,.post-body h4 b,.post-body h5 b,.post-body h6 b{font-weight:700;}
                 input,button,select,textarea{font-size:100%;line-height:normal;vertical-align:baseline;}
@@ -258,22 +258,22 @@
             #simplify-two li li:last-child {border:0;}
             #simplify-two li ul ul {left:100%;top:0}
             #simplify-two li li &gt; a{background:#fff;color:#666;display:block;margin:0;text-decoration:none;text-transform:none;min-width:180px;height:36px;line-height:36px;padding:0 13px;font-size:11px;border:0;;border-left:3px solid transparent;margin-top:0}
-            #simplify-two li li a:hover{background:#fdda97;color:#000}
+            #simplify-two li li a:hover{background:#A5A051;color:#000}
             /* Arlina search form */
             #search-me{float:right;margin:0;padding:0;overflow:hidden;width:220px}
             #search-me table{width:100%;margin:0;position:relative;height:36px}
             #search-me td.search-boxs1{color:#cbd1e1!important}
-            #search-me input#search-boxs1[type="text"]{background:#3d548f;height:36px;line-height:35px;margin:0;padding:0 10px;width:100%;border:none;color:#cbd1e1!important}
+            #search-me input#search-boxs1[type="text"]{background:##A5A051;height:36px;line-height:35px;margin:0;padding:0 10px;width:100%;border:none;color:#cbd1e1!important}
             #search-me input#search-button1[type="submit"]{font-family:FontAwesome;font-size:17px;background:transparent;color:#fff;height:60px;line-height:60px;margin:0;padding:0 15px;border:none;outline:none;font-weight:normal!important;transition:all 0.25s;position:absolute;right:0;top:0;z-index:2}
-            #search-me input#search-boxs1[type="text"]:focus{background:#3d548f;outline:none;color:#cbd1e1}
+            #search-me input#search-boxs1[type="text"]:focus{background:##A5A051;outline:none;color:#cbd1e1}
             /* Arlina Post Wrapper */
             #main-wrapper{width:64.98%;float:left;margin:0;padding:0;word-wrap:break-word;border-right:1px solid rgba(0,0,0,0.1);}
             .main .Blog{border-bottom-width:0}
             .main .widget{margin:0;padding:0}
             .date-header{display:none!important}
             h1.post-title.entry-title,h2.post-title.entry-title {font-size:18px;margin:0 0 15px;}
-            h1.post-title.entry-title a,h2.post-title.entry-title a{color:#2c4584;}
-            h1.post-title.entry-title a:hover,h2.post-title.entry-title a:hover{color:#138be6;}
+            h1.post-title.entry-title a,h2.post-title.entry-title a{color:#4D5139;}
+            h1.post-title.entry-title a:hover,h2.post-title.entry-title a:hover{color:#0F4C3A;}
             .post{background:#fff;position:relative;margin:0;padding:0}
             .post-body {margin:0;line-height:1.7em;text-align:left;font-size:15px;padding:20px;}
             .post-info abbr {border:0;}
@@ -283,9 +283,9 @@
             .breadcrumbs a{color:#000;margin:0 2px;line-height:normal;}
             .breadcrumbs .breadhome a{margin:0 5px 0 0}
             .breadcrumbs .breadlabel:last-child{margin:0 0 0 4px}
-            .breadcrumbs a:hover{color:#138be6;}
+            .breadcrumbs a:hover{color:#4D5139;}
             .post-footer{line-height:1.6em}
-            .post-footer a{color:#97b28e;}
+            .post-footer a{color:#4D5139;}
             .feed-links{clear:both;line-height:2.5em;}
             /* Arlina Sidebar Wrapper */
             #sidebar-wrapper{padding:20px;width:35%;float:right;word-wrap:break-word;overflow:hidden}
@@ -311,7 +311,7 @@
             .droplabeldo select:focus{outline:none;cursor:pointer;border-color:#66afe9;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,0.6);}
             .dropdown-select&gt;option{background:#fafafa;position:relative;display:block;margin:3px;text-shadow:none;outline:0;border:0;cursor:pointer}
             /* Arlina Footer Wrapper */
-            #footer-wrapper{background:#2f303f;color:#bdc3c7;text-align:center;padding:20px 0 0 0;margin:auto;border-top:5px solid #2c4584}
+            #footer-wrapper{background:#4D5139;color:#bdc3c7;text-align:center;padding:20px 0 0 0;margin:auto;border-top:5px solid #4D5139}
             .simplifymed a{display:inline-block;text-align:center;margin-top:10px;margin-right:5px;color:#fff;border-radius:100%;opacity:.9;}
             .simplifymed a i{font-family:Fontawesome;width:32px;height:32px;line-height:32px;display:block}
             .simplifymed a:hover{color:#fff;opacity:1;transform:rotate(360deg);}
@@ -319,11 +319,11 @@
             .simplifymed .twitter{background:#00aced}
             .simplifymed .googleplus{background:#dd4b39}
             .simplifymed .rssfeed{background:#ee802f}
-            #footbawah{clear:both;background:#252632;margin:auto;padding:25px 20px;color:#95a5a6;font-size:14px;display:block;overflow:hidden;position:relative}
-            #footbawah a{color:#f1c40f}
+            #footbawah{clear:both;background:#4D5139;margin:auto;padding:25px 20px;color:#95a5a6;font-size:x-small;display:block;overflow:hidden;position:relative}
+            #footbawah a{color:#A5A051}
             .footbawahkiri{text-align:left;float:left}
-            .footbawahkanan{text-align:right;float:right;}
-            .footbawahkanan a{color:#2ecc71}
+            .footbawahkanan{text-align:right;float:right;font-size: x-small;}
+            .footbawahkanan a{color:#0F4C3A}
             .footbawahkanan a:hover{color:#fff;}
             .footer-column{position:relative;margin:0 auto;clear:both;font-size:14px;line-height:24px;overflow:hidden;text-align:left;border-bottom:1px solid rgba(0,0,0,0.1);}
             .footer-column h3{position:relative;overflow:hidden;margin:0 0 10px 0;font-size:1rem;padding:0 0 10px 0;border-bottom:1px solid rgba(0,0,0,.1);color:#fff}
@@ -350,14 +350,14 @@
             #subscribe-footer .emailfooter .submitfooter{background:#2ecc71;color:#fff;margin:0 0 0 5px;font-size:14px;cursor:pointer;border:1px solid rgba(0,0,0,0.05);border-radius:3px;transition:all .3s}
             #subscribe-footer .emailfooter .submitfooter:active,#subscribe-footer .emailfooter .submitfooter:hover{background:#27ae60;color:#fff;outline:none;box-shadow:none}
             /* Popular Post */
-            #PopularPosts1 ul,.PopularPosts li,.PopularPosts li img,.PopularPosts li a,.PopularPosts li a img{color:#2c4584;margin:0;padding:0;list-style:none;border:none}
+            #PopularPosts1 ul,.PopularPosts li,.PopularPosts li img,.PopularPosts li a,.PopularPosts li a img{color:#4D5139;margin:0;padding:0;list-style:none;border:none}
             #PopularPosts1 ul{margin:0;list-style:none;}
             #PopularPosts1 ul li{margin:0;padding:10px 0;position:relative;transition:all .3s linear;}
             #PopularPosts1 ul li:hover {background:rgba(255,255,255,.8);}
             #PopularPosts1 ul li:last-child{border:0}
             #PopularPosts1 ul li img{display:block;width:100%;height:auto}
             #PopularPosts1 ul li .item-title a,.PopularPosts ul li a{font-size:13px;font-weight:700;line-height:1.6;}
-            #PopularPosts1 ul li .item-title a:hover,.PopularPosts ul li a:hover{color:#138be6}
+            #PopularPosts1 ul li .item-title a:hover,.PopularPosts ul li a:hover{color:#4D5139}
             #PopularPosts1 .item-thumbnail{margin:0 10px 0 0;overflow:hidden;z-index:2;display:block;position:relative;border-radius:0;width:90px;height:62px;float:left}
             #PopularPosts1 .item-title{padding:0 5px}
             #PopularPosts1 ul li:nth-child(1){border-top:none}
@@ -440,13 +440,13 @@
             .search-boxs{height:auto;}
             #searchform{margin:0 10px}
             #menu {display:block;}
-            #simplify-two{background:#fff;color:#138be6;font-size:initial;position:relative;display:block;padding:15px;text-transform:uppercase;box-shadow:none;float:none;text-align:left;border-bottom:1px solid rgba(0,0,0,0.14)}
+            #simplify-two{background:#fff;color:#4D5139;font-size:initial;position:relative;display:block;padding:15px;text-transform:uppercase;box-shadow:none;float:none;text-align:left;border-bottom:1px solid rgba(0,0,0,0.14)}
             #simplify-two ul{background:#fff;position:absolute;top:100%;left:0;z-index:3;height:auto;float:none;display:none}
             #simplify-two ul &gt; li{float:none}
             #simplify-two ul.menus{width:100%;position:static;padding-left:20px}
             #simplify-two li{display:block;float:none;width:auto}
             #simplify-two li a:hover,#simplify-two ul.menus a:hover{background:#24376a;color:#fff;}
-            #simplify-two a{background:#2c4584;padding:12px;height:initial;line-height:initial;color:#fff;border:0;margin:0}
+            #simplify-two a{background:#4D5139;padding:12px;height:initial;line-height:initial;color:#fff;border:0;margin:0}
             #simplify-two ul &gt; li a i{color:rgba(255,255,255,.5);float:right}
             #simplify-two input,#simplify-two label{position:absolute;top:0;left:0;display:block}
             #simplify-two input{z-index:4}
@@ -455,8 +455,8 @@
             #simplify-two li:hover &gt; ul{width:100%}
             #simplify-two li li {border:0;}
             #simplify-two li li &gt; a{background:#24376a;color:#fff;height:auto;font-size:12px;line-height:30px;padding:0 10px;}
-            #simplify-two li li:hover, #simplify-two li li a:hover {background:#2c4584;color:#fff;}
-            #simplify-two li ul {background:#2c4584;padding:0;position:relative;width:100%;left:initial;box-shadow:none;}
+            #simplify-two li li:hover, #simplify-two li li a:hover {background:#4D5139;color:#fff;}
+            #simplify-two li ul {background:#4D5139;padding:0;position:relative;width:100%;left:initial;box-shadow:none;}
             #simplify-two li:hover ul.menus,#simplify-two li:hover &gt; ul{left:initial}
             #simplify-two a i {float:right;}
             #search-me{display:none}}
@@ -527,7 +527,7 @@
                 <style type='text/css'>
                     .post{padding:20px;margin:0;border-bottom:1px solid rgba(0,0,0,0.14);transition:all .3s}
                     .post-body{padding:0;}
-                    h1.post-title.entry-title a:hover, h2.post-title.entry-title a:hover {color:#138be6;}
+                    h1.post-title.entry-title a:hover, h2.post-title.entry-title a:hover {color:#4D5139;}
                     h1.post-title.entry-title,h2.post-title.entry-title{margin:0 12px 15px 0}
                     .post-thumb{position:relative;background:#f1f1f1;overflow:hidden;float:left;min-width:200px;height:auto;min-height:150px;margin:0 20px 0 0;transition:all .3s}
                     .post-thumbnail{background:#f1f1f1;width:100%;height:auto;}
@@ -539,7 +539,7 @@
                     .post-timestamp a abbr.published.updated{border:0;cursor:pointer}
                     .post-info{color:#999;padding:0;overflow:hidden;border:0;margin:0 0 15px;font-size:13px;}
                     .post-info a{color:#999;margin:0 5px 0 0}
-                    .post-info a:hover{color:#138be6;}
+                    .post-info a:hover{color:#4D5139;}
                     .author-info img.avatar-photo1{height:22px;width:22px;border-radius:100%;margin:0 3px 0 0}
                     .label-info{position:absolute;left:0;top:0;z-index:2;opacity:0;visibility:hidden;transition:all .3s}
                     .post-thumb:hover .label-info{opacity:1;visibility:visible;}
@@ -547,7 +547,7 @@
                     .label-info a:hover{background:#7f8c8d;color:rgba(255,255,255,1);}
                     /* Page Navigation */
                     #blog-pager{background:#fff;clear:both;width:auto;padding:20px;line-height:normal;position:relative;display:block;text-align:left;overflow:visible;margin:0;}
-                    .showpage a,.showpageNum a,.showpagePoint{position:relative;background:#2c4584;display:inline-block;font-size:13px;color:#fff;margin:0 4px 0 0;padding:5px 10px;line-height:1.42857143;text-decoration:none;border-radius:3px;transition:all .3s}
+                    .showpage a,.showpageNum a,.showpagePoint{position:relative;background:#4D5139;display:inline-block;font-size:13px;color:#fff;margin:0 4px 0 0;padding:5px 10px;line-height:1.42857143;text-decoration:none;border-radius:3px;transition:all .3s}
                     .showpageOf{float:right;color:#bdc3c7;display:inline-block;font-size:13px;margin:0;padding:6px 0;line-height:1.42857143}
                     .showpageNum:last-child a{}
                     .showpageNum a:before{content:&#39;&#39;;position:absolute;top:0;bottom:0;left:0;right:0;box-shadow:inset 0 -2px 2px rgba(0,0,0,0.02);transition:box-shadow 0.5s}
@@ -663,7 +663,7 @@
                 /* Arlina Post Area */
                 .post {overflow:hidden;}
                 .post-info{background:#fff;display:block;color:#666;font-style:italic;line-height:1.6em;font-size:13px;padding:10px 15px;border-bottom:1px solid rgba(0,0,0,0.14);border-top:1px solid rgba(0,0,0,0.14)}
-                .post-info a{position:relative;color:#138be6;padding:0 10px 0 0;font-style:normal;font-weight:700;}
+                .post-info a{position:relative;color:#4D5139;padding:0 10px 0 0;font-style:normal;font-weight:700;}
                 .post-info a:hover{text-decoration:underline;}
                 .author-info img.avatar-photo1{background:rgba(0,0,0,0.1);height:28px;width:28px;margin:0 7px 0 0;border-radius:100%;transition:all .3s;}
                 .author-info img.avatar-photo1:hover {transform:rotate(360deg);}
@@ -673,7 +673,7 @@
                 .post-body img {height:auto;margin-bottom:2px;opacity:1;transition:all .6s ease;}
                 .post-body img:hover {opacity:0.97;}
                 .post-body a.img,.post-body .separator a {margin-left:0!important;margin-right:0!important;}
-                h1.post-title.entry-title,h2.post-title.entry-title{color:#138be6;padding:15px;font-size:24px;margin:0}
+                h1.post-title.entry-title,h2.post-title.entry-title{color:#4D5139;padding:15px;font-size:24px;margin:0}
                 .label-wrap{display:block;color:#666;padding:10px 15px;border-bottom:1px solid rgba(0,0,0,0.14);overflow:hidden}
                 .label-info{position:relative;margin:auto}
                 .label-info a,.label-tags{float:left;display:inline-block;position:relative;font-size:10px;margin-left:8px;color:#999;text-decoration:none;text-transform:uppercase;padding:5px;border:1px solid rgba(0,0,0,0.1);border-radius:3px}
@@ -753,11 +753,11 @@
                 .halaman-kanan,.halaman-kiri{color:#141924;background:0 0;width:50%;position:relative;margin:0}
                 .halaman-kiri{background:#fff;width:50%;float:left;margin:0;text-align:left;padding:20px 20px 20px 30px;height:72px;border-right:1px solid rgba(0,0,0,0.08);}
                 .halaman-kanan{background:#fff;width:50%;float:right;margin:0;text-align:right;padding:20px 30px 20px 20px;height:72px}
-                .halaman-kanan:hover,.halaman-kiri:hover{background:#fdfdfd;color:#138be6;}
-                .halaman-kanan:hover a,.halaman-kiri:hover a{color:#138be6;}
+                .halaman-kanan:hover,.halaman-kiri:hover{background:#fdfdfd;color:#4D5139;}
+                .halaman-kanan:hover a,.halaman-kiri:hover a{color:#4D5139;}
                 .halaman-kanan a,.halaman-kiri a{color:#111;font-size:14px;font-weight:500;line-height:1.3em;transition:initial}
                 .current-pageleft,.current-pageright,.halaman-kanan a,.halaman-kiri a{font-size:14px;font-family:Roboto,Arial,sans-serif;font-weight:700;background:transparent;text-decoration:none;line-height:normal;transition:initial}
-                .halaman-kanan a:hover,.halaman-kanan:hover .pager-title-left,.halaman-kiri a:hover,.halaman-kiri:hover .pager-title-left,.halaman-kiri:hover .current-pageleft,.halaman-kanan:hover .current-pageright{color:#138be6;}
+                .halaman-kanan a:hover,.halaman-kanan:hover .pager-title-left,.halaman-kiri a:hover,.halaman-kiri:hover .pager-title-left,.halaman-kiri:hover .current-pageleft,.halaman-kanan:hover .current-pageright{color:#4D5139;}
                 #blog-pager,.isihalaman-kanan,.isihalaman-kiri{margin:0}
                 .panahkanan,.panahkiri{position:absolute;top:50%;margin-top:-8px}
                 .panahkiri{left:10px}
@@ -794,7 +794,7 @@
         </b:if>
         <b:if cond='data:blog.pageType == "static_page"'>
             <style type='text/css'>
-                h1.post-title.entry-title,h2.post-title.entry-title,h3.post-title.entry-title,h4.post-title.entry-title{color:#138be6;padding:15px;font-size:24px;margin:0;border-bottom:1px solid rgba(0,0,0,0.14);}
+                h1.post-title.entry-title,h2.post-title.entry-title,h3.post-title.entry-title,h4.post-title.entry-title{color:#4D5139;padding:15px;font-size:24px;margin:0;border-bottom:1px solid rgba(0,0,0,0.14);}
                 #sidebar-wrapper,#comments .comment-form p:after {display:none;}
                 #main-wrapper {width:100%;float:none;border:0;}
                 /* Arlina Post Navigation */
@@ -1959,7 +1959,7 @@
                 <div class='clear'/>
                 <div id='related-post'>
                 <div class='relhead'>
-                <h4><span>Artikel Terkait</span></h4>
+                <h4><span>類似文章</span></h4>
                 <div class='clear'/>
                 <b:loop values='data:post.labels' var='label'>
                 <script expr:src='"/feeds/posts/default/-/" + data:label.name + "?alt=json-in-script&amp;amp;callback=relpostimgcuplik&amp;amp;max-results=50"' type='text/javascript'/>
@@ -2448,7 +2448,7 @@
                         <div class='simplifymed'>
                             <a class='facebook' href='#' rel='nofollow' target='_blank'><i class='fa fa-facebook'/></a>
                             <a class='twitter' href='#' rel='nofollow' target='_blank'><i class='fa fa-twitter'/></a>
-                            <a class='googleplus' href='https://plus.google.com/+AmeliaPutri90' rel='nofollow' target='_blank'><i class='fa fa-google-plus'/></a>
+                            <a class='googleplus' href='#' rel='nofollow' target='_blank'><i class='fa fa-google-plus'/></a>
                             <a class='rssfeed' href='#' rel='nofollow' target='_blank'><i class='fa fa-rss'/></a>
                         </div>
                         </p>
