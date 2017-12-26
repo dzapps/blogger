@@ -56,11 +56,23 @@
       </b:if>
       <link expr:href='data:blog.url' hreflang='x-default' rel='alternate'/>
       <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
-      <link href='https://plus.google.com/xxxxx/posts' rel='publisher'/>
-      <link href='https://plus.google.com/xxxxx/about' rel='author'/>
-      <link href='https://plus.google.com/xxxxx' rel='me'/>
+
+    <!-->
+    Google Search Console
+    https://www.google.com/webmasters/tools/home
+    <-->
+
+    <!-->
+    Open Graph tags to customize link previews
+    <-->
+    <meta property="og:url"           content="https://ducalacafe.blogspot.com" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Ｄucala Cafe" />
+    <meta property="og:description"   content="杜卡拉的咖啡館" />
+    <meta property="og:image"         content="https://4.bp.blogspot.com/_fE69UaYHfCI/SkDyNrUfwPI/AAAAAAAAA0o/Fn8fk-KXjY8/S220/happydog.jpg" />
+      
       <meta content='xxxxx' name='google-site-verification'/>
-      <meta content='xxxxx' name='msvalidate.01'/>
+      <meta content='xxxxx' name='msvalidate.01'/>  
       <meta content='xxxxx' name='alexaVerifyID'/>
       <meta content='xxxxx' name='Author'/>
       <meta content='general' name='rating'/>
@@ -100,17 +112,14 @@
          <meta content='Ducala 杜卡拉' property='og:description'/>
       </b:if>
       <meta expr:content='data:blog.title' property='og:site_name'/>
-      <meta content='https://www.facebook.com/URL-PROFILE-FB' property='article:author'/>
-      <meta content='https://www.facebook.com/URL-FANPAGE-FB' property='article:publisher'/>
+      <meta content='https://www.facebook.com/ducala.me/' property='article:author'/>
+      <meta content='https://www.facebook.com/ducala.me/' property='article:publisher'/>
       <meta content='453945684739888' property='fb:app_id'/>
       <meta content='xxxxx' property='fb:admins'/>
       <meta content='en_US' property='og:locale'/>
       <meta content='en_GB' property='og:locale:alternate'/>
       <meta content='id_ID' property='og:locale:alternate'/>
-      <meta content='summary' name='twitter:card'/>
-      <meta expr:content='data:blog.pageTitle' name='twitter:title'/>
-      <meta content='xxxxx' name='twitter:site'/>
-      <meta content='xxxxx' name='twitter:creator'/>
+
       <b:skin><![CDATA[
          html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1;display:block}*{margin:0;padding:0}html{display:block}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{background:transparent}table{border-collapse:collapse;border-spacing:0}*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}ins{background:#fff}body#layout ul,#layout ul{display:none}body#layout #outer-wrapper,body#layout .post-inner,body#layout .sidebar,body#layout .sidebartop{padding:0}body#layout #wrapper,body#layout .post-inner,body#layout .sidebar-inner{padding:0}body#layout .header-wrapper{margin-top:0}body#layout #header{min-height:0;width:100%}body#layout #headerdua{width:30%;float:left}body#layout .sosial-atas li{display:none}#layout,#layout .widget-content,#layout .add_widget{border:0}body#layout .add_widget{border:1px solid #ddd}#layout .add_widget a{color:#111}#layout #header{min-height:0;width:100%;margin:10px 0 0 0}#layout #footer-wrapper .footer-column{width:33.33%;float:left}#layout #main-wrapper{width:70%;float:left}#layout #sidebar-wrapper{width:30%;left:0;padding:0;float:right}#layout .draggable-widget .widget-wrap2{background:#c1cfd9}#layout #banner,#layout #banner2{background-color:#444;padding:20px 0!important;margin-bottom:20px}#layout #banner .widget,#layout #banner2 .widget{width:80%;margin:5px auto!important;overflow:hidden;float:none}#layout #banner .add_widget,#layout #banner2 .add_widget{width:80%;margin:5px auto!important;overflow:hidden;float:none}#footer-xwidget .footer-widget{width:31.7%;float:left;margin-left:10px}#footer-wrapper{overflow:hidden;margin:0 auto 20px auto;padding:20px 0 0}#layout #footer-wrapper #column1,#layout #footer-wrapper #column2{margin:0}body{background:#fff;font-family:'Roboto',sans-serif;font-size:14px;font-weight:400;text-align:left;color:#000;margin:0;padding:0}.navbar,.post-feeds,.feed-links{display:none}.section,.widget{margin:0;padding:0}strong,b{font-weight:bold;padding:0}cite,em,i{font-style:italic}a:link,a:visited{color:#4d5139;text-decoration:none;transition:all .3s}a:hover,a:hover:visited{color:#000}a img{border:0;border-width:0;outline:0}img{max-width:100%;vertical-align:middle;border:0}abbr,acronym{border-bottom:1px dotted;cursor:help}sup,sub{vertical-align:baseline;position:relative;top:-.4em;font-size:86%}sub{top:.4em}small{font-size:86%}kbd{display:inline-block;font-size:90%;color:#4d5139}mark{background-color:#ffce00;color:#182025}p,blockquote,pre,table,figure,hr,form,ol,ul,dl{margin:1.5em 0}hr{height:1px;border:0;background-color:#999}code,kbd,pre,samp{font-family:monospace,monospace}pre{white-space:pre;word-wrap:normal;overflow:auto;font-size:13px;margin:0}*:focus{outline:0!important}h1,h2,h3,h4,h5,h6{font-weight:700;line-height:normal}h1{font-size:200%}h2{font-size:180%}h3{font-size:160%}h4{font-size:140%}h5{font-size:120%}h6{font-size:100%}.post-body blockquote{position:relative;margin:0 auto;padding:24px 20px 24px 45px;line-height:24px;text-shadow:0 1px 1px white;background-color:#f2f6c1;background-image:-webkit-radial-gradient(center,cover,rgba(255,255,255,0) 0,rgba(255,255,255,0.1) 90%),-webkit-repeating-linear-gradient(top,transparent 0,transparent 24px,rgba(239,207,173,0.7) 24px,rgba(239,207,173,0.7) 25px);border:1px solid rgba(0,0,0,0.1);font-family:cursive}.post-body blockquote:before,.post-body blockquote:after{content:'';position:absolute;top:0;bottom:0}.post-body blockquote:before{left:20px;border:4px solid rgba(239,207,173,0.7)}.post-body blockquote:after{z-index:-1;left:0;right:0;background:rgba(137,125,85,0.9);border:1px solid rgba(170,157,134,0.7);transform:rotate(2deg)}.post-body h1{font-size:200%}.post-body h2{font-size:180%}.post-body h3{font-size:160%}.post-body h4{font-size:140%}.post-body h5{font-size:120%}.post-body h6{font-size:100%}.post-body h1 b,.post-body h2 b,.post-body h3 b,.post-body h4 b,.post-body h5 b,.post-body h6 b{font-weight:700}input,button,select,textarea{font-size:100%;line-height:normal;vertical-align:baseline}textarea{display:block;box-sizing:border-box}input.placeholder_text,textarea.placeholder_text{color:#888}input::-webkit-input-placeholder,textarea::-webkit-input-placeholder,input:-moz-placeholder,textarea:-moz-placeholder,input.placeholder_text,textarea.placeholder_text{color:#444}[placeholder]:focus::-webkit-input-placeholder{transition:opacity .5s .5s ease;opacity:0}.post ul li span{position:relative;display:block;padding:0;margin:.5em 0 .5em 2em;text-decoration:none}ol{counter-reset:li;list-style:none;padding:0;margin:0}ol ol{margin:0 0 0 2em}.post ol li{position:relative;display:block;padding:0;margin:.5em 0 .5em 2em;background:#fff;text-decoration:none}.post ol li:before{content:counter(li);counter-increment:li;position:absolute;left:-2.5em;height:2em;width:2em;text-align:center}.post-body ul{position:relative;display:block;padding:0;margin:.5em 0 .5em 1.5em;text-decoration:none}.post-body table{width:100%}.post-body table td,.post-body table caption{background:#fff;border:1px solid rgba(0,0,0,0.05);padding:10px;text-align:left;vertical-align:top}.post-body table th{background:#e74c3c;color:#fff;border:1px solid rgba(0,0,0,0.05);border-bottom:0;padding:10px;text-align:left;vertical-align:top}.post-body table.tr-caption-container{border:1px solid rgba(0,0,0,0.14);margin:0}.post-body th{font-weight:700}.post-body table caption{border:0;font-style:italic}.post-body td,.post-body th{vertical-align:top;text-align:left;font-size:13px;padding:3px 5px;border:1px solid #97b28e}.post-body th:hover{color:#fff}.post-body td a{color:#444}.post-body td a:hover{color:#cf4d35}.post-body table.tr-caption-container td{border:0;padding:8px;background:#fff;line-height:17px;overflow:hidden;text-align:center;text-overflow:ellipsis;white-space:nowrap;font-weight:700;color:#000}.post-body table.tr-caption-container,.post-body table.tr-caption-container img,.post-body img{max-width:100%;height:auto}.post-body li{list-style-type:square}.post-body td.tr-caption{color:#666;font-size:80%;padding:0 8px 8px!important}.sr{visibility:hidden;width:0;height:0}.clear{clear:both}html{-webkit-font-smoothing:antialiased}::selection{background:#eafdb7;text-shadow:none}.post-body ::selection{background:#eafdb7;color:#000}
       ]]></b:skin>
@@ -148,20 +157,20 @@
       </b:if>
    </head>
    <body expr:class='&quot;loading&quot; + data:blog.mobileClass'>
-   <div id='fb-root'/>
 
-      <script>
-/* <![CDATA[ */
+<div id="fb-root"></div>
+<script>
+<![CDATA[ */
 (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=453945684739888';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-      
-/* ]]> */
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=235064936684105';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+/* ]]>
 </script>
+
 
       <div id='header' itemscope='itemscope' itemtype='http://schema.org/WPHeader'>
          <div class='maxiwrap'>
@@ -945,12 +954,13 @@
             <div class='post-footer'>
             <b:if cond='data:blog.pageType == &quot;item&quot;'>
             <div class='post-footer-line post-footer-line-1'>
-            &lt;div style=&quot;display:block;text-align:center;margin:0 auto;&quot;&gt;
-            &lt;/div&gt;
-            <span class='bottomshare'>
-              <div class='fb-share-button' data-href='https://ducalacafe.blogspot.com?utm_source=facebook' data-layout='button_count' data-mobile-iframe='true' data-size='small'><a class='fb-xfbml-parse-ignore' href='https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fducalacafe.blogspot.com%2F&amp;src=sdkpreparse' target='_blank'>Share</a></div>
-              <div class='fb-save' data-size='small' data-uri='https://ducalacafe.blogspot.com?utm_source=facebook'/>
-            </span>
+
+            <div class='display:block'>
+              <span class='bottomshare'>
+                <div class="fb-share-button" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fducalacafe.blogspot.com%2F&amp;src=sdkpreparse">Share</a></div>
+                <div class='fb-save' data-size='small'/>
+              </span>
+            </div>
             <div class='clear'/>
             <div class='clear'/>
             <div id='related-post'>
@@ -1249,23 +1259,26 @@
                   我是杜卡拉
                <div class='clear'/>
                   <div class='simplifymed'>
+                  <!-->
+                  https://developers.facebook.com/docs/plugins/share-button
+                  </-->
                     <div class='fb-share-button' 
-                    data-href='https://ducalacafe.blogspot.com' 
                     data-layout='button' data-mobile-iframe='true' data-size='small'>
                     <a class='fb-xfbml-parse-ignore' href='#' onclick='window.open(&apos;https://www.facebook.com/sharer/sharer.php?u=&apos;+encodeURIComponent(location.href)' target='_blank'>Share
                     </a>
                     </div>
-
-                    <script language="javascript">
-                      <![CDATA[ */
-                        function tweetCurrentPage()
-                        { window.location.href="https://twitter.com/share?url="+escape(window.location.href)+"&text="+document.title; }
-                      /* ]]>
-                    
-                    </script>
-                    <a class="twitter-share-button"
-                    data-size='default' 
-                    href="https://twitter.com/share?url="+encodeURIComponent(document.URL); target="_blank">>Tweet</a>                     
+                    <!-->
+                      <script language="javascript">
+                        <![CDATA[ */
+                          function tweetCurrentPage()
+                          { window.location.href="https://twitter.com/share?url="+escape(window.location.href)+"&text="+document.title; }
+                        /* ]]>
+                      </script>
+                      <a class="twitter-share-button"
+                      data-size='default' 
+                      href="javascript:tweetCurrentPage()"
+                      >Tweet</a>
+                    </-->                     
                   </div>
                   </p>
                </div>
