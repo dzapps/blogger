@@ -24,9 +24,6 @@ Here is summary of the general workflow of creating a website and how to optimiz
 	 - Compress [HTML/CSS/JavaScript](https://developers.google.com/speed/docs/insights/MinifyResources)
      - Optmize [CSS delivery](https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery)
 	 - Image optimization
- 5. Search Engine Optimization
-    > Being corporative - feed preferred and structred data to search engines.
+ 5. Search Engine Optimization (Being corporative - feed preferred and structred data to search engines)
     - [Google Search Console](https://www.google.com/webmasters/tools/home)
     - [Open Graph (og) protocol](http://ogp.me/)
-
-]
