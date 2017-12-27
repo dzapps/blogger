@@ -4,7 +4,6 @@ My modified blogger theme
 Here is summary of the general workflow of creating a website and how to optimize it continuously. 
 By Reiser Wang under [Creative Commons licensing](https://creativecommons.org/licenses/by-sa/3.0/tw/deed.en)
 
-
 ---
 ## What To Do When Creating a Site
 
@@ -39,7 +38,9 @@ By Reiser Wang under [Creative Commons licensing](https://creativecommons.org/li
  5. Search Engine Optimization (Being corporative - feed preferred and structred data to search engines)
     - [Google Search Console](https://www.google.com/webmasters/tools/home)
         * Sitemap
-    - [Open Graph (og) protocol](http://ogp.me/)
+        * [Structured Data](https://developers.google.com/search/docs/guides/intro-structured-data?) and Google [testing tool](https://search.google.com/structured-data/testing-tool））
+        * [AMP](https://www.ampproject.org/docs/tutorials/create) [test tools](https://search.google.com/test/amp)
+    - [Open Graph (og) protocol](http://ogp.me/) 
     > **To-Do: Add more SEO tips here.**
 6. Social Network Service (SNS) Optmization
     - [Facebook API](https://developers.facebook.com/docs/plugins/share-button)
