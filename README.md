@@ -4,7 +4,7 @@ Here is summary of the general workflow of creating a website and how to optimiz
 
 By Reiser Wang
 
-##What To Do When Creating a Site
+## What To Do When Creating a Site
 
  1. Decide target audience/UX/business/monetization models
  2. Determine site framework and/or templates
