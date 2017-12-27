@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
 <HTML expr:dir='data:blog.languageDirection'>
-  <head>
+  <!-- Remove Default Widget Bundle CSS from Blogger Hack -->
+  &lt;head&gt;
     <meta charset='utf-8'/>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <meta name='viewport' content='width=device-width, initial-scale=1' />
@@ -356,7 +357,9 @@
         <script type='text/javascript'>snippet_count=80;function removeHtmlTag(d,c){if(-1!=d.indexOf(&quot;&lt;&quot;)){for(var b=d.split(&quot;&lt;&quot;),a=0;a&lt;b.length;a++){-1!=b[a].indexOf(&quot;&gt;&quot;)&amp;&amp;(b[a]=b[a].substring(b[a].indexOf(&quot;&gt;&quot;)+1,b[a].length))}d=b.join(&quot;&quot;)}for(c=c&lt;d.length-1?c:d.length-2;&quot; &quot;!=d.charAt(c-1)&amp;&amp;-1!=d.indexOf(&quot; &quot;,c);){c++}return d=d.substring(0,c-1),d+&quot;...&quot;}function createSnippet(d){var c=document.getElementById(d),b=snippet_count,a=&#39;&lt;div class=&quot;snippets&quot;&gt;&#39;+removeHtmlTag(c.innerHTML,b)+&quot;...&lt;/div&gt;&quot;;c.innerHTML=a}</script>
       </b:if>
     </b:if>
-  </head>
+  &lt;/head&gt;&lt;!--<head/>--&gt;
+
+
   <body expr:class='&quot;loading&quot; + data:blog.mobileClass'>
     <div id="fb-root"></div>
     <script>
