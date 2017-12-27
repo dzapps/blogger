@@ -1,9 +1,10 @@
 # blogger
 My modified blogger theme 
 
-Here is summary of the general workflow of creating a website and how to optimize it *continuously*.
-
+Here is summary of the general workflow of creating a website and how to optimize it continuously. 
 By Reiser Wang under [Creative Commons licensing](https://creativecommons.org/licenses/by-sa/3.0/tw/deed.en)
+
+
 ---
 ## What To Do When Creating a Site
 
