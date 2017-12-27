@@ -1,9 +1,10 @@
 # blogger
-My modified blogger theme
+My modified blogger theme 
+
 Here is summary of the general workflow of creating a website and how to optimize it *continuously*.
 
-By Reiser Wang
-
+By Reiser Wang under [Creative Commons licensing](https://creativecommons.org/licenses/by-sa/3.0/tw/deed.en)
+---
 ## What To Do When Creating a Site
 
  1. Decide target audience/UX/business/monetization models
@@ -36,8 +37,19 @@ By Reiser Wang
 	 - Image optimization
  5. Search Engine Optimization (Being corporative - feed preferred and structred data to search engines)
     - [Google Search Console](https://www.google.com/webmasters/tools/home)
+        * Sitemap
     - [Open Graph (og) protocol](http://ogp.me/)
     > **To-Do: Add more SEO tips here.**
 6. Social Network Service (SNS) Optmization
     - [Facebook API](https://developers.facebook.com/docs/plugins/share-button)
     - [Twitter API](https://dev.twitter.com/web/tweet-button)
+    - [Line share button](https://media.line.me/en/how_to_install)
+    - Make every page perfectly shareable by setting [Open Graph Markup](https://developers.facebook.com/docs/sharing/webmasters) and tested by SNS tools such as [Facebook](https://developers.facebook.com/docs/sharing/webmasters#testing)
+    ```html
+    <meta property="og:url"                content="https://ducalacafe.blogspot.tw/search/label/%E6%97%85%E9%81%8A?&max-results=7" />
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="Ducala's travel post" />
+    <meta property="og:description"        content="Ducala's travel inforamtion?" />
+    <meta property="og:image"              content="https://4.bp.blogspot.com/_fE69UaYHfCI/SkDyNrUfwPI/AAAAAAAAA0o/Fn8fk-KXjY8/S220/happydog.jpg" />
+    ```
+    This should be part of your publishing processes.
