@@ -34,13 +34,13 @@ While optimizing the template, I put some notes here for what has been done for 
 
 Better to select * a template designed for AMP. The imgration from non-AMP to AMP may be a pain.
 
-####2.4 Scope browser compatibility and draft test plans
+#### 2.4 Scope browser compatibility and draft test plans
 
 [User-Agent Strings](http://www.useragentstring.com/pages/useragentstring.php)
     
  ---
 ### 3. Implement front-end and back-end 
-- Be kind to eyes and brains. Use code formatter (example)[https://www.freeformatter.com/] to make your codes organized.
+- Be kind to eyes and brains. Use code formatter [example](https://www.freeformatter.com/) to make your codes organized.
 - Mind [html encode](https://codebeautify.org/html-encode-string)
  ---
 ### 4. Debug/Test
@@ -53,56 +53,41 @@ Better to select * a template designed for AMP. The imgration from non-AMP to AM
 - Being skeptical - Check every external resources and links and its parameters
  ---
 ### 5. Site optimization
-#### [Google Site Speed](https://developers.google.com/speed/pagespeed/insights/)
+#### 5.1 [Google Site Speed](https://developers.google.com/speed/pagespeed/insights/)
 
- **Some tricks**
- - Blogger automatically inserts widget_css_mobile_bundle.css that causes warning in [Google Page Speed Insights](https://developers.google.com/speed/pagespeed/insights/). To workaround it simply change 
+#### 5.2 Server optimization
+- [Set browser caching](https://developers.google.com/speed/docs/insights/LeverageBrowserCaching)
 
-``html
-<head>
-* YOUR HTML HERE *
-</head>
-```
+#### 5.3 Front-end JavaScript optimization
+- Asynchronous loading
 
-to
-            
+    When setting JavaScript code snippets to 
 
 ```html
-&lt;head&gt;
-* YOUR HTML HERE
-&lt;/head&gt;&lt;!--<head/>--&gt;
- ```
+<script async='async' src='//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'/>
+```
 
+the delay loading of scripts may cause rendering or script execution errors when browser parse the target website while the script is not fully loaded.
 
-	 - Server optimization
-     > [Set browser caching](https://developers.google.com/speed/docs/insights/LeverageBrowserCaching)
-
-	 - Front-end JavaScript optimization
-        > When setting JavaScript code snippets to 
-
-        ```html
-        <script async='async' src='//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'/>
-        ```
-        
-        >the delay loading of scripts may cause rendering or script execution errors when browser parse the target website while the script is not fully loaded.
-	 - Compress [HTML/CSS/JavaScript](https://developers.google.com/speed/docs/insights/MinifyResources)
-     - Optmize [CSS delivery](https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery)
-	 - Image optimization
+- Compress [HTML/CSS/JavaScript](https://developers.google.com/speed/docs/insights/MinifyResources)
+- Optmize [CSS delivery](https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery)
+- Image optimization
  ---
 ### 6. Search Engine Optimization 
-    *Being corporative - feed preferred and structred data to search engines*
-    - [Google Search Console](https://www.google.com/webmasters/tools/home)
-        * Sitemap
-        * [Structured Data](https://developers.google.com/search/docs/guides/intro-structured-data?) and Google [testing tool](https://search.google.com/structured-data/testing-tool））
-        * [AMP](https://www.ampproject.org/docs/tutorials/create) [test tools](https://search.google.com/test/amp)
-    - [Open Graph (og) protocol](http://ogp.me/) 
-    > **To-Do: Add more SEO tips here.**
+Being corporative - feed preferred and structred data to search engines.
+- [Google Search Console](https://www.google.com/webmasters/tools/home)
+    * Sitemap
+    * [Structured Data](https://developers.google.com/search/docs/guides/intro-structured-data) and Google [testing tool](https://search.google.com/structured-data/testing-tool）
+    * [AMP](https://www.ampproject.org/docs/tutorials/create) [test tools](https://search.google.com/test/amp)
+- [Open Graph (og) protocol](http://ogp.me/) 
+> **To-Do: Add more SEO tips here.**
+
 ---
 ### 7. Social Network Service (SNS) Optmization
-    - [Facebook API](https://developers.facebook.com/docs/plugins/share-button)
-    - [Twitter API](https://dev.twitter.com/web/tweet-button)
-    - [Line share button](https://media.line.me/en/how_to_install)
-    - Make every page perfectly shareable by setting [Open Graph Markup](https://developers.facebook.com/docs/sharing/webmasters) and tested by SNS tools such as [Facebook](https://developers.facebook.com/docs/sharing/webmasters#testing)
+- [Facebook API](https://developers.facebook.com/docs/plugins/share-button)
+- [Twitter API](https://dev.twitter.com/web/tweet-button)
+- [Line share button](https://media.line.me/en/how_to_install)
+- Make every page perfectly shareable by setting [Open Graph Markup](https://developers.facebook.com/docs/sharing/webmasters) and tested by SNS tools such as [Facebook](https://developers.facebook.com/docs/sharing/webmasters#testing)
 
     ```html
     <meta property="og:url"                content="https://ducalacafe.blogspot.tw/search/label/%E6%97%85%E9%81%8A?&max-results=7" />
