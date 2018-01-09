@@ -30,6 +30,7 @@
 </b:if>
 </b:if>
 
+<!-- Opemn Graph meta-->
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 <meta expr:content='data:blog.pageName' property='og:title'/>
 <meta expr:content='data:blog.canonicalUrl' property='og:url'/>
@@ -43,7 +44,7 @@
 <b:if cond='data:blog.metaDescription'>
 <meta expr:content='data:blog.metaDescription' property='og:description'/>
 <b:else/>
-<meta expr:content='&quot;Silahkan kunjungi &quot; + data:blog.pageTitle + &quot; Untuk membaca postingan-postingan menarik.&quot;' property='og:description'/>
+<meta expr:content='data:blog.pageTitle + &quot; from Ducala Cafe &quot;' property='og:description'/>
 </b:if>
 </b:if>
 <b:if cond='data:blog.postImageUrl'>
@@ -52,19 +53,13 @@
 <b:if cond='data:blog.postImageThumbnailUrl'>
 <meta expr:content='data:blog.postThumbnailUrl' property='og:image'/>
 <b:else/>
-<meta content='https://1.bp.blogspot.com/-9PzAIaFUHLo/WONY0zS9GbI/AAAAAAAAC40/HRONO7y8BkIBgBY1MZ2xT2JpFLKDaJoYwCLcB/s1600/noamp.jpg' property='og:image'/>
+<meta content='https://4.bp.blogspot.com/_fE69UaYHfCI/SkDyNrUfwPI/AAAAAAAAA0o/Fn8fk-KXjY8/S220/happydog.jpg' property='og:image'/>
 </b:if>
 </b:if>
-<link href='https://plus.google.com/XXXXX' rel='me'/>
-<link href='https://plus.google.com/XXXXX' rel='publisher'/>
-<meta content='XXXXX' name='google-site-verification'/>
-<meta content='XXXXX' property='fb:admins'/>
-<meta content='XXXXX' property='fb:profile_id'/>
-<meta content='XXXXX' name='Author'/>
-<meta content='https://www.facebook.com/XXXXX' property='article:author'/>
-<meta expr:content='data:blog.title' name='twitter:site'/>
-<meta content='summary_large_image' name='twitter:card'/>
-<meta content='@XXXXX' name='twitter:creator'/>
+
+
+
+
 <!-- Bar theme color -->
 <meta content='#cc324b' name='theme-color'/>
 <meta content='#cc324b' name='msapplication-navbutton-color'/>
@@ -93,31 +88,9 @@ https://github.com
 */
 
 /* font */
-@font-face {
-  font-family: &#39;Titillium Web&#39;;
-  font-style: normal;
-  font-weight: 600;
-  src: local(&#39;Titillium WebSemiBold&#39;), local(&#39;TitilliumWeb-SemiBold&#39;), url(https://fonts.gstatic.com/s/titilliumweb/v4/anMUvcNT0H1YN4FII8wpr46gJz9aNFrmnwBdd69aqzY.woff2) format(&#39;woff2&#39;);
-}
-@font-face {
- font-family: &#39;Titillium Web&#39;;
-  font-style: normal;
-  font-weight: 700;
-  src: local(&#39;Titillium WebBold&#39;), local(&#39;TitilliumWeb-Bold&#39;), url(https://fonts.gstatic.com/s/titilliumweb/v4/anMUvcNT0H1YN4FII8wprxP6Eu1_xfSBSoi9uie1FdE.woff2) format(&#39;woff2&#39;);
-}
-@font-face {
-font-family: &#39;Titillium Web&#39;;
-  font-style: normal;
-  font-weight: 400;
-  src: local(&#39;Titillium Web&#39;), local(&#39;TitilliumWeb-Regular&#39;), url(https://fonts.gstatic.com/s/titilliumweb/v4/7XUFZ5tgS-tD6QamInJTcZSnX671uNZIV63UdXh3Mg0.woff2) format(&#39;woff2&#39;);
-}
-/* Material Icon */
-@font-face {
-  font-family: &#39;Material Icons&#39;;
-  font-style: normal;
-  font-weight: 400;
-  src: local(&#39;Material Icons&#39;), local(&#39;MaterialIcons-Regular&#39;), url(https://fonts.gstatic.com/s/materialicons/v12/2fcrYFNaTjcS6g4U3t-Y5ewrjPiaoEww8AihgqWRJAo.woff) format(&#39;woff&#39;), url(https://fonts.gstatic.com/s/materialicons/v12/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format(&#39;woff2&#39;), url(https://fonts.gstatic.com/s/materialicons/v12/2fcrYFNaTjcS6g4U3t-Y5bbKic1PW3nceB3q24YFOMg.ttf) format(&#39;truetype&#39;);
-}
+<link href='https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans' rel='stylesheet'/>
+
+
 .material-icons {font-family: &#39;Material Icons&#39;;font-weight:normal;font-style:normal;font-size:inherit;display:inline-block;line-height:1;text-transform:none;letter-spacing:normal;word-wrap:normal;white-space:nowrap;direction:ltr;vertical-align:middle;
 /* Support for all WebKit browsers. */
 -webkit-font-smoothing: antialiased;
@@ -522,8 +495,7 @@ a:hover.color-label {background:#0379c4;color:#fff}
 /*
 THEME   	: BLOGAMP
 DEGIN URL   : https://www.goomsite.top/
-Design		: Basri Matindas
-Donasi		: Rek BANK BRI 022501016056534 an. Basri Matindas
+
 
 Thanks For 	:
 http://www.kompiajaib.com
@@ -680,11 +652,11 @@ h3.date-header{text-transform:none;font:normal 12px Arial;color:#666;line-height
 <div class='content-wrapper'>
              <div class='header-wrapper'>
                  <b:section class='header' id='header' maxwidgets='1' showaddelement='yes'>
-                   <b:widget id='Header1' locked='true' title='BLOGAMP (Header)' type='Header' version='1'>
+                   <b:widget id='Header1' locked='true' title='杜卡拉的咖啡館 (標頭)' type='Header' version='1'>
                      <b:widget-settings>
                        <b:widget-setting name='displayUrl'/>
                        <b:widget-setting name='displayHeight'>0</b:widget-setting>
-                       <b:widget-setting name='sectionWidth'>-1</b:widget-setting>
+                       <b:widget-setting name='sectionWidth'>600</b:widget-setting>
                        <b:widget-setting name='useImage'>false</b:widget-setting>
                        <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
                        <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
@@ -730,7 +702,7 @@ h3.date-header{text-transform:none;font:normal 12px Arial;color:#666;line-height
 <div class='boxadm'>
 <a href='http://www.goomsite.top/' itemprop='url' target='_blank' title='profil'>
 <span itemprop='name'>
-<amp-img alt='profil' height='30' src='https://4.bp.blogspot.com/-zunZhtexQKk/WORe43iDE9I/AAAAAAAAC7I/PXaQp_GtmOg0TtQUW5YWvAcJqPL7hAHdQCLcB/s1600/avatar92.jpg' title='profil' width='30'/>Basri Matindas</span></a>
+<amp-img alt='profil' height='30' src='https://4.bp.blogspot.com/_fE69UaYHfCI/SkDyNrUfwPI/AAAAAAAAA0o/Fn8fk-KXjY8/S220/happydog.jpg' title='profil' width='30'/>Ducala</span></a>
 </div>
 <amp-accordion class='nav-accordion'>
 <section>
@@ -768,90 +740,28 @@ h3.date-header{text-transform:none;font:normal 12px Arial;color:#666;line-height
 	        <div class='outerpic-wrapper'>
 	        <div class='outer-wrapper'>
 <div class='ads720'>
-<b:section class='adsmx' id='adsmx' preferred='yes'>
-  <b:widget id='HTML2' locked='false' title='' type='HTML' version='1'>
-    <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<a href='http://www.goomsite.top/' target='_blank' title='ads 720x90'><amp-img alt='ads 720x90' height='90px' layout='responsive' src='https://4.bp.blogspot.com/-YCY1er24MQ0/WONgEzIrKDI/AAAAAAAAC5Q/0uKZhGg9GgcQsphwCWIb53_1YT5zEFgHQCLcB/s1600/720.jpg' title='ads 720x90' width='720'></amp-img></a>]]></b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-</b:includable>
-  </b:widget>
-</b:section>
+<b:section class='adsmx' id='adsmx' preferred='yes'/>
 </div>
 <div class='sidebarleft-wrapper'>
-<b:section class='sidebarleft' id='sidebarleft' preferred='yes'>
-  <b:widget id='Label2' locked='false' mobile='yes' title='Label' type='Label' version='1'>
-    <b:widget-settings>
-      <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
-      <b:widget-setting name='display'>LIST</b:widget-setting>
-      <b:widget-setting name='selectedLabelsList'/>
-      <b:widget-setting name='showType'>ALL</b:widget-setting>
-      <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-        <b:if cond='data:title'>
-       <h2><data:title/></h2>
-        </b:if>
-        <div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
-       <b:if cond='data:display == &quot;list&quot;'>
-         <ul><b:loop values='data:labels' var='label'> <li><b:if cond='data:blog.url == data:label.url'><span expr:dir='data:blog.languageDirection'><data:label.name/></span><b:else/><a expr:dir='data:blog.languageDirection' expr:href='data:label.url + &quot;?&amp;amp;max-results=8&quot;' expr:title='data:label.name'><data:label.name/></a></b:if><b:if cond='data:showFreqNumbers'><span dir='ltr'>(<data:label.count/>)</span></b:if></li></b:loop></ul>
-       <b:else/>
-         <b:loop values='data:labels' var='label'>
-        <span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
-          <b:if cond='data:blog.url == data:label.url'>
-         <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
-          <b:else/>
-         <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
-          </b:if>
-          <b:if cond='data:showFreqNumbers'>
-         <span class='label-count' dir='ltr'>(<data:label.count/>)</span>
-          </b:if>
-        </span>
-         </b:loop>
-       </b:if>
-        </div>
-      </b:includable>
-  </b:widget>
-  <b:widget id='HTML3' locked='false' title='' type='HTML' version='1'>
-    <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<a href='http://www.goomsite.top/' target='_blank' title='ads 160x600'><amp-img alt='ads 160x600' height='600px' layout='responsive' src='https://2.bp.blogspot.com/-zHYpRDQeSiU/WONgEatlydI/AAAAAAAAC5E/JyFNlq5TOYcivYZxvXQu4KelYkPeyluTgCLcB/s1600/160.jpg' title='ads 160x600' width='160'></amp-img></a>]]></b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-</b:includable>
-  </b:widget>
-</b:section>
+<b:section class='sidebarleft' id='sidebarleft' preferred='yes'/>
 </div>
                       <div class='main-wrapper'>
                 <b:section class='main' id='main' showaddelement='no'>
-                  <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='1'>
+                  <b:widget id='Blog1' locked='true' title='網誌文章' type='Blog' version='1'>
                     <b:widget-settings>
                       <b:widget-setting name='showDateHeader'>true</b:widget-setting>
-                      <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
+                      <b:widget-setting name='style.textcolor'>#4d5139</b:widget-setting>
                       <b:widget-setting name='showShareButtons'>false</b:widget-setting>
                       <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-                      <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
+                      <b:widget-setting name='style.urlcolor'>#4d5139</b:widget-setting>
                       <b:widget-setting name='showAuthor'>true</b:widget-setting>
-                      <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
+                      <b:widget-setting name='style.linkcolor'>#867835</b:widget-setting>
                       <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
                       <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
                       <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
                       <b:widget-setting name='style.layout'>1x1</b:widget-setting>
                       <b:widget-setting name='showLabels'>true</b:widget-setting>
-                      <b:widget-setting name='showLocation'>true</b:widget-setting>
+                      <b:widget-setting name='showLocation'>false</b:widget-setting>
                       <b:widget-setting name='showTimestamp'>true</b:widget-setting>
                       <b:widget-setting name='postsPerAd'>1</b:widget-setting>
                       <b:widget-setting name='showBacklinks'>false</b:widget-setting>
@@ -1269,14 +1179,14 @@ h3.date-header{text-transform:none;font:normal 12px Arial;color:#666;line-height
   </div>
 <b:else/>
 <div itemprop='image' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
-  <meta content='https://1.bp.blogspot.com/-9PzAIaFUHLo/WONY0zS9GbI/AAAAAAAAC40/HRONO7y8BkIBgBY1MZ2xT2JpFLKDaJoYwCLcB/s1600/noamp.jpg' itemprop='url'/>
+  <meta content='https://4.bp.blogspot.com/_fE69UaYHfCI/SkDyNrUfwPI/AAAAAAAAA0o/Fn8fk-KXjY8/S220/happydog.jpg' itemprop='url'/>
   <meta content='700' itemprop='width'/>
   <meta content='700' itemprop='height'/>
   </div>
     </b:if>
   <div itemprop='publisher' itemscope='itemscope' itemtype='https://schema.org/Organization'>
     <div itemprop='logo' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
-      <meta content='https://1.bp.blogspot.com/-9PzAIaFUHLo/WONY0zS9GbI/AAAAAAAAC40/HRONO7y8BkIBgBY1MZ2xT2JpFLKDaJoYwCLcB/s1600/noamp.jpg' itemprop='url'/>
+      <meta content='https://4.bp.blogspot.com/_fE69UaYHfCI/SkDyNrUfwPI/AAAAAAAAA0o/Fn8fk-KXjY8/S220/happydog.jpg' itemprop='url'/>
       <meta content='600' itemprop='width'/>
       <meta content='600' itemprop='height'/>
     </div>
@@ -1293,7 +1203,7 @@ h3.date-header{text-transform:none;font:normal 12px Arial;color:#666;line-height
               <b:else/>
               <div class='thumbnailjpg'>
                 <a expr:href='data:post.url'>
-              <amp-img expr:alt='data:post.title' expr:title='data:post.title' height='239' layout='responsive' src='https://1.bp.blogspot.com/-9PzAIaFUHLo/WONY0zS9GbI/AAAAAAAAC40/HRONO7y8BkIBgBY1MZ2xT2JpFLKDaJoYwCLcB/s1600/noamp.jpg' width='408'/>
+              <amp-img expr:alt='data:post.title' expr:title='data:post.title' ='239' layout='responsive' src='https://4.bp.blogspot.com/_fE69UaYHfCI/SkDyNrUfwPI/AAAAAAAAA0o/Fn8fk-KXjY8/S220/happydog.jpg'></amp-img>
                            </a>
               </div>
             </b:if>
@@ -1336,12 +1246,12 @@ h3.date-header{text-transform:none;font:normal 12px Arial;color:#666;line-height
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 <div class='postadstop'>
   <span>Advertisemen 300x250</span>
-<a href='http://www.goomsite.top/' target='_blank' title='300x250'><amp-img alt='Advertise' height='250' src='https://4.bp.blogspot.com/-RnKuV9gNY9A/WONgE9_QTII/AAAAAAAAC5I/cplM2EQxPZkbx6-ZRVIkzJp8_fYe2Qz6gCLcB/s1600/300.jpg' width='300'/></a>
+
 </div>
   <data:post.body/>
 <div class='postadsbottom'>
   <span>Advertisemen 336x280 </span>
-<a href='http://www.goomsite.top/' target='_blank' title='336x280'><amp-img alt='Advertise' height='280' layout='responsive' src='https://2.bp.blogspot.com/-cx4DiAd1PS0/WONgE1DElLI/AAAAAAAAC5M/Y1KmyD3yGN4e7arFGqnrfqivmpbW9aP8ACLcB/s1600/336.jpg' width='336'/></a></div>
+<a href='https://ducalacafe.blogspot.jp/' target='_blank' title='336x280'><amp-img alt='Advertise' height='280' layout='responsive' src='https://4.bp.blogspot.com/_fE69UaYHfCI/SkDyNrUfwPI/AAAAAAAAA0o/Fn8fk-KXjY8/S220/happydog.jpg' width='336'/></a></div>
 </b:if>
 <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
   <data:post.body/>
@@ -1393,17 +1303,20 @@ h3.date-header{text-transform:none;font:normal 12px Arial;color:#666;line-height
 </div></div> 
 <div class='sidebar-wrapper'>
  <b:section class='sidebar' id='sidebar' showaddelement='yes'>
-   <b:widget id='HTML1' locked='false' title='' type='HTML' version='1'>
+   <b:widget id='AdSense3' locked='false' title='' type='AdSense'>
      <b:widget-settings>
-       <b:widget-setting name='content'><![CDATA[<a href='http://www.goomsite.top/' target='_blank' title='ads 300x250'><amp-img alt='ads 300x250' height='250px' layout='responsive' src='https://4.bp.blogspot.com/-RnKuV9gNY9A/WONgE9_QTII/AAAAAAAAC5I/cplM2EQxPZkbx6-ZRVIkzJp8_fYe2Qz6gCLcB/s1600/300.jpg' title='ads 300x250' width='300'></amp-img></a>]]></b:widget-setting>
+       <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+       <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
+       <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+       <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+       <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
+       <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
+       <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
      </b:widget-settings>
      <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
   <div class='widget-content'>
-    <data:content/>
+    <data:adCode/>
+    <b:include name='quickedit'/>
   </div>
 </b:includable>
    </b:widget>
