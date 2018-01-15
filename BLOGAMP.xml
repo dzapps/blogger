@@ -1176,7 +1176,7 @@ h3.date-header{text-transform:none;font:normal 12px Arial;color:#666;line-height
                                                 <div class='post-firstimage'>
                                                     <b:if cond='data:blog.postImageUrl'>
                                                         <div class='firstimage'>
-                                                            <amp-img expr:alt='data:post.title' expr:src='data:blog.postImageUrl' layout='responsive'/>
+                                                            <amp-img expr:alt='data:post.title' expr:src='data:blog.postImageUrl' layout='responsive' width='720'/>
                                                             <meta expr:content='data:post.firstImageUrl' itemprop='image_url'/>
                                                             <meta expr:content='data:blog.blogId' itemprop='blogId'/>
                                                             <meta expr:content='data:post.id' itemprop='postId'/>
@@ -1213,13 +1213,13 @@ h3.date-header{text-transform:none;font:normal 12px Arial;color:#666;line-height
                                                 <b:if cond='data:post.firstImageUrl'>
                                                     <div class='thumbnailjpg'>
                                                         <a expr:href='data:post.url'>
-                                                            <amp-img expr:alt='data:post.title' expr:src='data:post.firstImageUrl' height='180' layout='responsive' width='250'/>
+                                                            <amp-img expr:alt='data:post.title' expr:src='data:post.firstImageUrl' height='180' layout='responsive' width='240'/>
                                                         </a>
                                                     </div>
                                                     <b:else/>
                                                     <div class='thumbnailjpg'>
                                                         <a expr:href='data:post.url'>
-                                                            <amp-img expr:alt='data:post.title' expr:title='data:post.title' height='239' layout='responsive' src='https://4.bp.blogspot.com/_fE69UaYHfCI/SkDyNrUfwPI/AAAAAAAAA0o/Fn8fk-KXjY8/S220/happydog.jpg'/>
+                                                            <amp-img expr:alt='data:post.title' expr:title='data:post.title' expr:src='data:post.firstImageUrl' layout='responsive' />
                                                         </a>
                                                     </div>
                                                 </b:if>
